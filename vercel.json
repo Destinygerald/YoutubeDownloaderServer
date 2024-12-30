@@ -14,8 +14,12 @@
 		{
 			"src": "/download",
 			"dest": "index.js",
-			"methods": ["POST"],
+			"methods": ["POST"]
+		}
+	],
+	"functions": {
+		"index/*.js": {
 			"maxDuration": 60
 		}
-	]
+	}
 }
