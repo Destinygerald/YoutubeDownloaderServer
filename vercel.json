@@ -10,6 +10,11 @@
 		{
 			"src": "/(.*)",
 			"dest": "index.js"
+		},
+		{
+			"src": "/download",
+			"dest": "index.js",
+			"methods": ["POST"]
 		}
 	]
 }

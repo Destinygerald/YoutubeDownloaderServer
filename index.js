@@ -34,7 +34,7 @@ app.post('/download', async(req, res) => {
 	} catch (err) {
 		console.log(err)
 
-		res.status(500).json({
+		return res.status(500).json({
 			status: 'Failed',
 			error: err
 		})
