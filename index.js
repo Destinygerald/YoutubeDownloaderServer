@@ -2,7 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const fs = require('fs')
 const ytdl = require("@distube/ytdl-core");
-const { rateLimit } = require('express-rate-limiter')
+const { rateLimit } = require('express-rate-limit')
 
 const app = express()
 const limiter = rateLimit({
